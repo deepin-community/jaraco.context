@@ -1,5 +1,42 @@
-template-repository (1.0-1) unstable; urgency=medium
+jaraco.context (6.0.0-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream version 6.0.0.
+  * Control: remove team from uploaders.
+  * Control: point VCS links to private namespace.
+  * Bump Standards-Version to 4.7.0 (from 4.6.2; no further changes).
+  * Control, Tests: add (build-)dep on python3-portend, used in
+    conftest.py.
+  * Add d/pybuild.testfiles to provide conftest.py.
+  * Tests: update to match upstream changes, and disable a test that
+    wants network access.
+  * Copyright: bump years.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Jeroen Ploemen <jcfp@debian.org>  Thu, 15 Aug 2024 03:28:38 +0000
+
+jaraco.context (4.3.0-1) unstable; urgency=medium
+
+  * New upstream version 4.3.0
+  * Bump Standards-Version to 4.6.2 (from 4.6.1; no further changes).
+  * Copyright: bump years.
+
+ -- Jeroen Ploemen <jcfp@debian.org>  Thu, 15 Jun 2023 13:04:33 +0000
+
+jaraco.context (4.2.0-1) unstable; urgency=medium
+
+  * New upstream version 4.2.0
+  * Control: bump std-ver to 4.6.1 (from 4.6.0; no further changes).
+  * Control: add build-dep on pybuild-plugin-pyproject.
+
+ -- Jeroen Ploemen <jcfp@debian.org>  Mon, 12 Dec 2022 11:20:01 +0000
+
+jaraco.context (4.1.1-2) unstable; urgency=medium
+
+  * Source-only upload.
+
+ -- Jeroen Ploemen <jcfp@debian.org>  Sat, 09 Apr 2022 18:14:34 +0000
+
+jaraco.context (4.1.1-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #1008927)
+
+ -- Jeroen Ploemen <jcfp@debian.org>  Mon, 04 Apr 2022 13:44:46 +0000

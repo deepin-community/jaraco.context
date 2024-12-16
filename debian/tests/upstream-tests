@@ -1,0 +1,14 @@
+#!/bin/sh
+
+set -e -u
+
+DIR="/usr/lib/python3/dist-packages/"
+ln -vs "$(pwd)/conftest.py" "$DIR"
+ln -vs "$(pwd)/pytest.ini" "$DIR"
+
+cd "$DIR"
+
+for py in $(py3versions -s); do
+	echo "Running testsuite with $py:"
+	$py -m pytest --doctest-modules jaraco/context/__init__.py -k 'not jaraco.context.repo_context'
+done
