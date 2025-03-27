@@ -1,3 +1,10 @@
+jaraco.context (6.0.1-1) unstable; urgency=medium
+
+  * New upstream version 6.0.1
+  * Control: add build-dep on dh-sequence-python3
+
+ -- Jeroen Ploemen <jcfp@debian.org>  Tue, 04 Mar 2025 11:00:00 +0000
+
 jaraco.context (6.0.0-1) unstable; urgency=medium
 
   * New upstream version 6.0.0.
