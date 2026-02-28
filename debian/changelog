@@ -1,3 +1,13 @@
+jaraco.context (6.0.1-2) unstable; urgency=high
+
+  * Watch, upstream: switch to git mode and check upstream signatures.
+  * Patches: add 01_path_traversal. (CVE-2026-23949; closes: #1126078)
+  * Copyright: bump packaging years, switch license for debian/* to
+    Expat.
+  * Bump Standards-Version to 4.7.3 (from 4.7.0).
+
+ -- Jeroen Ploemen <jcfp@debian.org>  Thu, 22 Jan 2026 12:52:08 +0000
+
 jaraco.context (6.0.1-1) unstable; urgency=medium
 
   * New upstream version 6.0.1
