@@ -1,3 +1,9 @@
+jaraco.context (6.0.1-2deepin1) unstable; urgency=medium
+
+  * Rebuild with LTO enabled (dpkg vendor feature optimize/lto).
+
+ -- tunaichao <tunaichao@uniontech.com>  Mon, 21 Sep 2026 14:59:48 +0800
+
 jaraco.context (6.0.1-2) unstable; urgency=high
 
   * Watch, upstream: switch to git mode and check upstream signatures.
